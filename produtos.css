@@ -1,0 +1,104 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    background: linear-gradient( #f7b299, #f9b47e)
+}
+
+header {
+	background: linear-gradient(#fdcba4, #f9b47e);
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin-left: 12%;
+
+
+}
+
+img{
+
+	width: 440px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+
+.produtos{
+
+    background: linear-gradient(#f9b47e, #f7b299);
+
+}
+.produtos li {
+   
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 90px 0px 100px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+    
+}
+
+.produtos li:active {
+	border-color: #b31111;	
+   
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+    
+}
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+    
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+   
+}
