@@ -20,6 +20,10 @@ img{
 	width: 440px;
 }
 
+.principal{
+
+	text-align: center;
+}
 nav {
 	position: absolute;
 	top: 110px;
@@ -181,13 +185,12 @@ td, th {
 }
 
 .mapa {
-	padding: 3em 0;
+	padding: 20em 12;
 	background: linear-gradient(#f9b47e, #f7b299);
 }
 
 .mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .mapa p {
@@ -234,11 +237,6 @@ td, th {
 
 .imagem-beneficios:hover {
 	opacity: 0.3;
-}
-
-.video {
-	width: 560px;
-	margin: 2em auto;
 }
 
 @media screen and (max-width: 480px) {
