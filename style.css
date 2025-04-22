@@ -243,6 +243,31 @@ td, th {
 	
 }
 
+.diferenciais {
+	padding: 3em 0;
+	background: linear-gradient( #f7b299);
+	
+}
+
+.conteudo-diferenciais {
+	width: 640px;
+	margin: 0 auto;
+	background: linear-gradient( #f7b299);
+}
+
+.lista-diferenciais {
+	font-size: 300px;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.itens-diferenciais {
+	line-height: 1.5;
+}
+
+
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
