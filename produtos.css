@@ -1,6 +1,5 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-    background: linear-gradient( #f7b299, #f9b47e)
 }
 
 header {
@@ -12,13 +11,17 @@ header {
 	position: relative;
 	width: 940px;
 	margin-left: 12%;
-
-
 }
 
-img{
 
-	width: 440px;
+.imagem-cabelo{
+
+	width: 273px;
+}
+
+.imagem-unhas{
+
+	width: 220px;
 }
 
 nav {
