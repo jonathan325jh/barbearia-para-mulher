@@ -3,7 +3,6 @@ body {
 }
 
 header {
-	background: linear-gradient(#fdcba4, #f9b47e);
 	padding: 20px 0;
 }
 
@@ -49,15 +48,14 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #684705;
 	text-decoration: underline;
 }
 
 
-
-.produtos{
-
-    background: linear-gradient(#f9b47e, #f7b299);
+body .produtos, .nav, .nav li, .produto-descricao{
+    
+	background: linear-gradient(#f9b47e, #f7b299, #f7b299);
 
 }
 .produtos li {
@@ -67,19 +65,19 @@ nav a:hover {
 	width: 20%;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 90px 0px 100px;
+	padding: 50px 0px 80px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color: #fcf1dc;
     
 }
 
 .produtos li:active {
-	border-color: #b31111;	
+	border-color: #6a06068c;	
    
 }
 
