@@ -1,0 +1,9 @@
+main, form{
+
+    padding-left: 5em;
+}
+
+label, input{
+
+    color: rgb(96, 42, 3);
+}
